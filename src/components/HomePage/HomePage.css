@@ -1,0 +1,116 @@
+/* Container for the image and summary */
+.container {
+  display: flex; /* Use Flexbox to align summary and image side by side */
+  align-items: center; /* Align items vertically centered */
+  justify-content: space-between; /* Space between summary and image */
+  margin-top: 25%; /* Add space for the navbar */
+  font-family: 'Poppins', sans-serif;
+  color: lightgray;
+}
+
+/* Summary styling */
+.summary {
+  flex: 1; /* Allow summary to take up available space */
+  margin-right: 20px; /* Space between summary and image */
+  display: flex;
+  flex-direction: column; /* Stack text content vertically */
+  align-items: flex-start; /* Align text content to the left */
+}
+
+.summary p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  max-width: 800px;
+  margin-top: 25px;
+  margin-left: 50px;
+
+}
+
+/* Styling for the image */
+.my-picture {
+  max-width: 25%; /* Control the size of the image */
+  flex-shrink: 0; /* Prevent the image from shrinking */
+  margin-right: 25px;
+}
+
+.my-picture img {
+  width: 100%;
+  height: auto;  
+}
+
+/* Resume download button */
+.resume-download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  text-align: center;
+  color: white;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255,255, .2);
+  padding: 20px;
+  margin-top: 7.5%;
+  letter-spacing: 1px;
+  font-size: 1em;
+  margin-left: 50px;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.resume-download i {
+  padding-right: .5em;
+  font-size: 1.2em;
+}
+.resume-download:hover {
+  background-color: aquamarine;
+  color: black;
+  transform: scale(1.1); 
+}
+/* General Styles */
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: 50px;
+  color: aquamarine;
+}
+h3 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-left: 50px;
+  color: aquamarine;
+}
+.technologies-container {
+  text-align: center;
+  align-items: center; 
+  justify-content: space-between;
+  margin-top: 10%; 
+  font-family: 'Poppins', sans-serif;
+  color: lightgray;
+}
+
+.technologies-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: none;
+  gap: 10%;
+  margin-top: 20px;
+}
+
+.technologies-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.technologies-icon img {
+  width: 100%;
+  height: auto;
+
+}
+
