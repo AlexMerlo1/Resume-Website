@@ -40,7 +40,7 @@
   -webkit-filter: grayscale(100%); 
   filter: grayscale(50%);
   border-radius: 15%;
-  filter: drop-shadow(0 0 5px aquamarine); 
+  filter: drop-shadow(0 0 8px aquamarine); 
 }
 
 /* Resume download button */
