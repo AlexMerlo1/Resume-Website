@@ -1,21 +1,21 @@
 import React from 'react';
 import NavBar from '../NavBar/NavBar';
-import './Projects.css'; // Import CSS for styling if needed
+import './Projects.css';
 
 const projects = [
   {
     title: 'Bullet Wars 2D Game',
-    description: 'A brief description of Project One. This project involves... ',
+    description: 'A 2D Platformer using Pygame that implemented enemy AI, physics, collision detection, and more...',
     link: '#'
   },
   {
     title: 'SalesStream (Order Processing System)',
-    description: 'A brief description of Project Two. This project focuses on... ',
+    description: 'A javaFX program that allowed users to create orders, track totals, and and "pay" for their goods',
     link: '#'
   },
   {
     title: '5x5 TicTacToe',
-    description: 'Test ',
+    description: 'A JavaFX program that ran a 5x5 version of TicTacToe and kept track of scores',
     link: '#'
   }
 ];
