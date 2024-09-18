@@ -6,17 +6,17 @@ const projects = [
   {
     title: 'Bullet Wars 2D Game',
     description: 'A 2D Platformer using Pygame that implemented enemy AI, physics, collision detection, and more...',
-    link: '#'
+    link: 'https://github.com/AlexMerlo1/PlatformerGame'
   },
   {
     title: 'SalesStream (Order Processing System)',
     description: 'A javaFX program that allowed users to create orders, track totals, and and "pay" for their goods',
-    link: '#'
+    link: 'https://github.com/AlexMerlo1/SalesStreamProject'
   },
   {
     title: '5x5 TicTacToe',
     description: 'A JavaFX program that ran a 5x5 version of TicTacToe and kept track of scores',
-    link: '#'
+    link: 'https://github.com/AlexMerlo1/5x5TicTacToe'
   }
 ];
 
