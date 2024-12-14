@@ -1,7 +1,7 @@
 .projects-container {
   padding: 20px;
   max-width: 1200px;
-  margin-top: 75px;
+  margin-top: 25px;
 }
 
 .projects-list {
@@ -21,7 +21,7 @@
 }
 
 .project-item h2 {
-  margin-top: 0;
+  margin: 0;
 }
 
 .project-item a {
