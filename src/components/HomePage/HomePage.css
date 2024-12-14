@@ -1,14 +1,12 @@
-/* Container for the image and summary */
 .container {
   display: flex; 
   align-items: center; 
   justify-content: space-between; 
-  margin-top: 25%; 
+  margin-top: 6%; 
   font-family: 'Poppins', sans-serif;
   color: lightgray;
 }
 
-/* Summary styling */
 .summary {
   flex: 1; 
   margin-right: 20px;
@@ -26,7 +24,6 @@
 
 }
 
-/* Styling for the image */
 .my-picture {
   max-width: 25%;
   flex-shrink: 0;
@@ -39,11 +36,10 @@
   object-fit: contain;
   -webkit-filter: grayscale(100%); 
   filter: grayscale(50%);
-  border-radius: 15%;
-  filter: drop-shadow(0 0 8px aquamarine); 
+  border-radius: 50px;
+  filter: drop-shadow(0 0 3px aquamarine); 
 }
 
-/* Resume download button */
 .resume-download {
   display: flex;
   align-items: center;
