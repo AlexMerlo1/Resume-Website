@@ -9,7 +9,7 @@ import pythonLogo from '../../assets/python-logo.png';
 import qlikLogo from '../../assets/qlik-logos.png';
 import cLogo from '../../assets/C_LOGO.png';
 import javascriptLogo from '../../assets/javascriptt-logo.png';
-import headshot from '../../assets/headshot.png';
+import headshot from '../../assets/headshot-removebg-preview.png';
 import resume from '../../assets/Alex Merlo Resume.pdf';
 
 
@@ -38,16 +38,7 @@ const HomePage = () => {
           <img src={headshot} alt="Picture of Alex Merlo" />
         </div>
       </div>
-      <div className='technologies-container'>
-        <h3>My Skills</h3>
-        <div className='technologies-icons'>
-          <TechIcon src={javaLogo} alt="Java Logo" />
-          <TechIcon src={pythonLogo} alt="Python Logo" />
-          <TechIcon src={qlikLogo} alt="Qlik Logo" />
-          <TechIcon src={cLogo} alt="C Logo" />
-          <TechIcon src={javascriptLogo} alt="JavaScript Logo" />
-        </div>
-      </div>
+
     </div>
   );
 }

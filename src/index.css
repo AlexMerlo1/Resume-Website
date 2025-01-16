@@ -11,7 +11,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-height: 100vh;
-  background: url('./assets/PortfolioBackground.jpg') no-repeat center center fixed;
+  background-color: #1a1a1a;
   background-size: cover;
 }
 

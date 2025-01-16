@@ -14,6 +14,81 @@
   flex-wrap: nowrap; 
   padding-bottom: 0;
 }
+/* Contact button styling */
+.contact-btn {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Modal background */
+.contact-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Modal content */
+.contact-modal-content {
+  background: #333333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 500px;
+}
+
+/* Close button */
+.close-modal {
+  margin-top: 20px;
+  padding: 8px 15px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close-modal:hover {
+  background-color: #999;
+}
+
+/* Links styling */
+.contact-modal-content a {
+  color: #007bff;
+  text-decoration: none;
+}
+.contact-modal-content h2 {
+  text-align: center;
+  color: aquamarine;
+  margin: 0;
+  text-decoration: none;
+}
+.contact-modal-content p a{
+  color: #007bff;
+  text-decoration: none;
+}
+.contact-modal-content p {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+.contact-modal-content a:hover {
+  text-decoration: underline;
+}
 
 .topnav a {
   color: #f2f2f2;

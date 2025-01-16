@@ -1,0 +1,28 @@
+.demo-container {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.demo-container h1 {
+  font-size: 2.5rem;
+  color: #fd0000;
+  margin-bottom: 20px;
+}
+
+.demo-video {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .demo-container h1 {
+    font-size: 2rem;
+  }
+
+  .demo-video {
+    max-width: 100%;
+  }
+}
