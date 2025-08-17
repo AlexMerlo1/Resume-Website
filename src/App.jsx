@@ -8,20 +8,20 @@ import FitPalDemo from './components/Projects/DemoPages/FitPalDemo';
 import { Analytics } from '@vercel/analytics/react';
 
 const App = () => {
-    return (
-        <>
-            <Router>
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/AboutMe" element={<AboutMe />} /> 
-                    <Route path="/Experience" element={<Experience />} />
-                    <Route path="/Projects" element={<Projects />} />
-                    <Route path="/Projects/FitPalProDemo" element={<FitPalDemo />} />
-                    <Analytics />
-                </Routes>
-            </Router>
-        </>
-    );
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/AboutMe" element={<AboutMe />} />
+        <Route path="/Experience" element={<Experience />} />
+        <Route path="/Projects" element={<Projects />} />
+        <Route path="/Projects/FitPalProDemo" element={<FitPalDemo />} />
+      </Routes>
+
+      {/* must be outside <Routes> */}
+      <Analytics />
+    </Router>
+  );
 };
 
 export default App;
