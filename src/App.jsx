@@ -5,6 +5,8 @@ import Projects from './components/Projects/Projects';
 import Experience from './components/Experience/Experience';
 import AboutMe from './components/AboutMe/AboutMe';
 import FitPalDemo from './components/Projects/DemoPages/FitPalDemo';
+import { Analytics } from '@vercel/analytics/next';
+
 const App = () => {
     return (
         <>
@@ -15,7 +17,7 @@ const App = () => {
                     <Route path="/Experience" element={<Experience />} />
                     <Route path="/Projects" element={<Projects />} />
                     <Route path="/Projects/FitPalProDemo" element={<FitPalDemo />} />
-                    {/* other routes */}
+                    <Analytics />
                 </Routes>
             </Router>
         </>
