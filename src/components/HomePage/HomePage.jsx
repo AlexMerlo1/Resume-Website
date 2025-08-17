@@ -10,7 +10,7 @@ import qlikLogo from '../../assets/qlik-logos.png';
 import cLogo from '../../assets/C_LOGO.png';
 import javascriptLogo from '../../assets/javascriptt-logo.png';
 import headshot from '../../assets/headshot-removebg-preview.png';
-import resume from "../../assets/Alex Merlo Resume.pdf";
+import resume from "../../assets/alex-merlo-resume.pdf";
 
 
 
