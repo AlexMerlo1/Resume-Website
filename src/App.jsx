@@ -5,7 +5,6 @@ import Projects from './components/Projects/Projects';
 import Experience from './components/Experience/Experience';
 import AboutMe from './components/AboutMe/AboutMe';
 import FitPalDemo from './components/Projects/DemoPages/FitPalDemo';
-import { Analytics } from '@vercel/analytics/react';
 
 const App = () => {
   return (
@@ -18,8 +17,6 @@ const App = () => {
         <Route path="/Projects/FitPalProDemo" element={<FitPalDemo />} />
       </Routes>
 
-      {/* must be outside <Routes> */}
-      <Analytics />
     </Router>
   );
 };
