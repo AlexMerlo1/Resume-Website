@@ -5,7 +5,7 @@ import Projects from './components/Projects/Projects';
 import Experience from './components/Experience/Experience';
 import AboutMe from './components/AboutMe/AboutMe';
 import FitPalDemo from './components/Projects/DemoPages/FitPalDemo';
-import { Analytics } from '@vercel/analytics/next';
+import { Analytics } from '@vercel/analytics/react';
 
 const App = () => {
     return (
